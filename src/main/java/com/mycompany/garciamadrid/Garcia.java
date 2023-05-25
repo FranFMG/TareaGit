@@ -14,4 +14,8 @@ public class Garcia {
         System.out.print("GARCIA");
     }
 
+    public void mostrarNombre() {
+        System.out.print("Franky");
+    }
+
 }
