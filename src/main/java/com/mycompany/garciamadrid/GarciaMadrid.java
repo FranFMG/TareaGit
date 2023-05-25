@@ -1,7 +1,6 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
-
 package com.mycompany.garciamadrid;
 
 /**
@@ -11,6 +10,9 @@ package com.mycompany.garciamadrid;
 public class GarciaMadrid {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Garcia garcia = new Garcia();
+        Madrid madrid = new Madrid();
+        garcia.mostarApellido1();
+        madrid.mostarApellido2();
     }
 }

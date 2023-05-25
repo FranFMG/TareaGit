@@ -9,5 +9,9 @@ package com.mycompany.garciamadrid;
  * @author Fran Madrid Garcia
  */
 public class Garcia {
-    
+
+    public void mostarApellido1() {
+        System.out.print("GARCIA");
+    }
+
 }
